@@ -19,6 +19,10 @@ $ flask/bin/pip install flask
 
 $ pip3 install configparser
 
+$ pip3 install pydicom
+
+$ pip3 install pynetdicom
+
 ```
 
 * You also need to install the dcmtk package
