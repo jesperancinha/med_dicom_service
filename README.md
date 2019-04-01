@@ -50,3 +50,22 @@ $ port install dcmtk
 $ sudo apt install dcmtk
 
 ```
+
+## Starting simulation
+
+You can start simulating your environment in this way:
+
+```
+$ storescp -v 1234 -od temp
+
+$ storescu --propose-rle 127.0.0.1 1234 ~/Downloads/sample.dcm
+```
+
+
+## References
+
+* https://support.dcmtk.org/docs-dcmrt/mod_dcmnet.html
+
+* https://support.dcmtk.org/docs-dcmrt/classDcmSCU.html
+
+* https://support.dcmtk.org/docs-dcmrt/storescp.html
