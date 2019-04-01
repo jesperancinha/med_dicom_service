@@ -61,6 +61,7 @@ $ storescp -v 1234 -od temp
 $ storescu --propose-rle 127.0.0.1 1234 ~/Downloads/sample.dcm
 ```
 
+> NOTE: for the example, please copy the resulting file to /tmp/dicom
 
 ## References
 
