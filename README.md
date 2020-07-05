@@ -26,8 +26,6 @@ $ pip3 install pynetdicom
 ```
 
 * You also need to install the dcmtk package
-
-
 > MacOS	 brew-Link Homebrew	
 
 ```
