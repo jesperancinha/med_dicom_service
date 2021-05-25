@@ -1,11 +1,48 @@
-# med_dicom_service
-A simple service to load, store and display dicom tags for different files
+# Medical Dicom Service
+
+---
+[![Twitter URL](https://img.shields.io/twitter/url?logoColor=blue&style=social&url=https%3A%2F%2Fimg.shields.io%2Ftwitter%2Furl%3Fstyle%3Dsocial)](https://twitter.com/intent/tweet?text=%20Checkout%20this%20%40github%20repo%20by%20%40joaofse%20%F0%9F%91%A8%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB%3A%20https%3A//github.com/jesperancinha/med_dicom_service)
+[![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=Med%20Dicom%20Sevice&color=informational)](https://github.com/jesperancinha/med_dicom_service)
+[![Maven Central](https://img.shields.io/maven-central/v/org.jesperancinha.itf/med_dicom_service)](https://search.maven.org/search?q=itf.med_dicom_service)
+[![GitHub release](https://img.shields.io/github/release-pre/jesperancinha/med_dicom_service.svg)](https://github.com/jesperancinha/med_dicom_service/releases)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/jesperancinha/med_dicom_service)](https://github.com/jesperancinha/med_dicom_service/releases)
+[![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
+
+[![CircleCI](https://circleci.com/gh/jesperancinha/med_dicom_service.svg?style=svg)](https://circleci.com/gh/jesperancinha/med_dicom_service)
+[![Build Status](https://travis-ci.com/jesperancinha/med_dicom_service.svg?branch=master)](https://travis-ci.com/jesperancinha/med_dicom_service)
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/565498b6438e413898f194a52ac7ab66)](https://www.codacy.com/gh/jesperancinha/med_dicom_service/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/med_dicom_service&amp;utm_campaign=Badge_Grade)
+[![codebeat badge](https://codebeat.co/badges/b35ccc5a-1324-4ad1-a89a-da4edb58b186)](https://codebeat.co/projects/github-com-jesperancinhaorg-med_dicom_service-master)
+[![BCH compliance](https://bettercodehub.com/edge/badge/jesperancinha/med_dicom_service?branch=master)](https://bettercodehub.com/results/jesperancinha/med_dicom_service)
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/565498b6438e413898f194a52ac7ab66)](https://www.codacy.com/gh/jesperancinha/med_dicom_service/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jesperancinha/med_dicom_service&utm_campaign=Badge_Coverage)
+[![codecov](https://codecov.io/gh/jesperancinhaorg/med_dicom_service/branch/master/graph/badge.svg?token=B5py6s5p8j)](https://codecov.io/gh/jesperancinhaorg/med_dicom_service)
+[![Coverage Status](https://coveralls.io/repos/github/jesperancinha/med_dicom_service/badge.svg?branch=master)](https://coveralls.io/github/jesperancinha/med_dicom_service?branch=master)
+
+[![GitHub language count](https://img.shields.io/github/languages/count/jesperancinha/med_dicom_service.svg)](#)
+[![GitHub top language](https://img.shields.io/github/languages/top/jesperancinha/med_dicom_service.svg)](#)
+[![GitHub top language](https://img.shields.io/github/languages/code-size/jesperancinha/med_dicom_service.svg)](#)
+
+---
+
+## Technologies used
+
+---
+[![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-50/python-50.png "Python")](https://www.python.org/)
+[![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-50/flask-50.png "Flask Service")](https://flask.palletsprojects.com/)
+[![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-50/pydicom-50.png "Pydicom")](https://flask.palletsprojects.com/)
+---
+
 ## Introduction
 
+A simple service to load, store and display dicom tags for different files
+
 This software is used to read and display tags from dicom file transfers
+
 ## Software
 
 * You need to have a specific python setup:
+
 ```
 $ pip3 install flask
 
@@ -25,25 +62,47 @@ $ pip3 install pynetdicom
 
 ```
 
+## Requirements file
+
+```bash
+pip freeze > requirements.txt
+```
+
+## Cleaning REGEX
+
+```text
+ @ file:///opt.*
+ \@ file\:\/\/\/.*
+```
+
 * You also need to install the dcmtk package
-> MacOS	 brew-Link Homebrew	
+
+> MacOS	 brew-Link Homebrew
 
 ```
 $ brew install dcmtk
 ```
+
 >  Windows	choco-Link Chocolatey
+
 ```
 $ choco install dcmtk
 ```
-> MacOS	Fink	
+
+> MacOS	Fink
+
 ```
 $ fink install dcmtk
 ```
+
 > MacOS	MacPorts
+
 ```
 $ port install dcmtk
 ```
-> Linux	 debian-Link Debian	
+
+> Linux	 debian-Link Debian
+
 ```
 $ sudo apt install dcmtk
 
