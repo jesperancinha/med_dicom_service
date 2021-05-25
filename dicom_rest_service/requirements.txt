@@ -3,4 +3,3 @@ pytest==6.2.4
 pydicom==2.1.2
 python-coveralls==2.9.3
 coveralls==3.1.0
-coverage run --source=mypkg -m pytest tests/
