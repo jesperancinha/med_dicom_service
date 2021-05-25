@@ -4,3 +4,7 @@
 
 # Flask
 dicom_rest_service/flask
+
+# Coverage
+.coverage
+__pycache__

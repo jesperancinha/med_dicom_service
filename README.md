@@ -3,7 +3,6 @@
 ---
 [![Twitter URL](https://img.shields.io/twitter/url?logoColor=blue&style=social&url=https%3A%2F%2Fimg.shields.io%2Ftwitter%2Furl%3Fstyle%3Dsocial)](https://twitter.com/intent/tweet?text=%20Checkout%20this%20%40github%20repo%20by%20%40joaofse%20%F0%9F%91%A8%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB%3A%20https%3A//github.com/jesperancinha/med_dicom_service)
 [![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=Med%20Dicom%20Sevice&color=informational)](https://github.com/jesperancinha/med_dicom_service)
-[![Maven Central](https://img.shields.io/maven-central/v/org.jesperancinha.itf/med_dicom_service)](https://search.maven.org/search?q=itf.med_dicom_service)
 [![GitHub release](https://img.shields.io/github/release-pre/jesperancinha/med_dicom_service.svg)](https://github.com/jesperancinha/med_dicom_service/releases)
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/jesperancinha/med_dicom_service)](https://github.com/jesperancinha/med_dicom_service/releases)
 [![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
@@ -11,8 +10,8 @@
 [![CircleCI](https://circleci.com/gh/jesperancinha/med_dicom_service.svg?style=svg)](https://circleci.com/gh/jesperancinha/med_dicom_service)
 [![Build Status](https://travis-ci.com/jesperancinha/med_dicom_service.svg?branch=master)](https://travis-ci.com/jesperancinha/med_dicom_service)
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/565498b6438e413898f194a52ac7ab66)](https://www.codacy.com/gh/jesperancinha/med_dicom_service/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/med_dicom_service&amp;utm_campaign=Badge_Grade)
-[![codebeat badge](https://codebeat.co/badges/b35ccc5a-1324-4ad1-a89a-da4edb58b186)](https://codebeat.co/projects/github-com-jesperancinhaorg-med_dicom_service-master)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e0840fb465c6425785df419fb3887b2b)](https://www.codacy.com/gh/jesperancinha/med_dicom_service/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/med_dicom_service&amp;utm_campaign=Badge_Grade)
+[![codebeat badge](https://codebeat.co/badges/f71948d7-db29-4b36-a309-e347f96699f0)](https://codebeat.co/projects/github-com-jesperancinha-med_dicom_service-master)
 [![BCH compliance](https://bettercodehub.com/edge/badge/jesperancinha/med_dicom_service?branch=master)](https://bettercodehub.com/results/jesperancinha/med_dicom_service)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/565498b6438e413898f194a52ac7ab66)](https://www.codacy.com/gh/jesperancinha/med_dicom_service/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jesperancinha/med_dicom_service&utm_campaign=Badge_Coverage)

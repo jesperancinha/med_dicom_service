@@ -1,0 +1,12 @@
+language: python
+python:
+  - "3.9"
+install:
+  - pip install -r dicom_rest_service/requirements.txt
+script:
+  - cd dicom_rest_service && pytest
+  - coverage run --source=dicom-rest-service -m pytest
+after_success:
+  - coveralls
+  - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -Ls https://coverage.codacy.com/get.sh) report -l Python $(find **/jacoco*.xml -printf '-r %p ')
