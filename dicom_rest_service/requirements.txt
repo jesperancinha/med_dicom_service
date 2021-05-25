@@ -79,7 +79,7 @@ isort
 itsdangerous==1.1.0
 jdcal==1.4.1
 jedi
-Jinja2==2.11.2
+Jinja2==2.11.3
 joblib
 json5==0.9.5
 jsonschema
