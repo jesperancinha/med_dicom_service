@@ -31,6 +31,9 @@ jobs:
     # CircleCI will report the results back to your VCS provider.
     steps:
       - checkout
+      - run:
+          name: Python upgrade
+          command: python3.8 -m pip install --upgrade pip
       - python/install-packages:
           pkg-manager: pip
           app-dir: dicom_rest_service  # If you're requirements.txt isn't in the root directory.
