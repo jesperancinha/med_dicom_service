@@ -8,7 +8,6 @@
 [![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
 
 [![CircleCI](https://circleci.com/gh/jesperancinha/med_dicom_service.svg?style=svg)](https://circleci.com/gh/jesperancinha/med_dicom_service)
-[![Build Status](https://travis-ci.com/jesperancinha/med_dicom_service.svg?branch=master)](https://travis-ci.com/jesperancinha/med_dicom_service)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e0840fb465c6425785df419fb3887b2b)](https://www.codacy.com/gh/jesperancinha/med_dicom_service/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/med_dicom_service&amp;utm_campaign=Badge_Grade)
 [![codebeat badge](https://codebeat.co/badges/f71948d7-db29-4b36-a309-e347f96699f0)](https://codebeat.co/projects/github-com-jesperancinha-med_dicom_service-master)
