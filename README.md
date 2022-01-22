@@ -72,6 +72,8 @@ coverage run --source=dicom_rest_service -m pytest
 coverage report -m
 
 coverage html
+coverage json
+coverage xml
 ```
 ## Requirements file
 
