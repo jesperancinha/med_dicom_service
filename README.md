@@ -41,22 +41,25 @@ This software is used to read and display tags from dicom file transfers
 * You need to have a specific python setup:
 
 ```
-$ pip3 install flask
+pip3 install flask
 
-$ pip3 install virtualenv
+pip3 install virtualenv
 
-$ cd dicom_rest_service
+cd dicom_rest_service
 
-$ virtualenv flask
+virtualenv flask
 
-$ flask/bin/pip install flask
+flask/bin/pip install flask
 
-$ pip3 install configparser
+pip3 install configparser
 
-$ pip3 install pydicom
+pip3 install pydicom
 
-$ pip3 install pynetdicom
+pip3 install pynetdicom
 
+pip3 install coveralls
+
+pip3 install pytest
 ```
 
 ## Requirements file
