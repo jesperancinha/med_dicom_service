@@ -9,3 +9,5 @@ dicom_rest_service/flask
 .coverage
 __pycache__
 htmlcov
+coverage.json
+coverage.xml
