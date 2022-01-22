@@ -40,7 +40,7 @@ This software is used to read and display tags from dicom file transfers
 
 * You need to have a specific python setup:
 
-```
+```shell
 pip3 install flask
 
 pip3 install virtualenv
@@ -60,8 +60,19 @@ pip3 install pynetdicom
 pip3 install coveralls
 
 pip3 install pytest
+
+pip3 install coverage
 ```
 
+## Run Coverage
+
+```shell
+coverage run --source=dicom_rest_service -m pytest
+
+coverage report -m
+
+coverage html
+```
 ## Requirements file
 
 ```bash
@@ -122,11 +133,13 @@ $ storescu --propose-rle 127.0.0.1 1234 ~/Downloads/sample.dcm
 
 ## References
 
-* https://support.dcmtk.org/docs-dcmrt/mod_dcmnet.html
+- [Coverage PY](https://coverage.readthedocs.io/en/6.2/)
 
-* https://support.dcmtk.org/docs-dcmrt/classDcmSCU.html
+- [mod_dcmnet](https://support.dcmtk.org/docs-dcmrt/mod_dcmnet.html)
 
-* https://support.dcmtk.org/docs-dcmrt/storescp.html
+- [classDcmSCU](https://support.dcmtk.org/docs-dcmrt/classDcmSCU.html)
+
+- [storescp](https://support.dcmtk.org/docs-dcmrt/storescp.html)
 
 ## About me 👨🏽‍💻🚀🏳️‍🌈
 
