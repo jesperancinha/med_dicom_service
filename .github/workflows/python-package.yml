@@ -34,6 +34,6 @@ jobs:
         pip3 install GitPython &&
         pip3 install requests
     - name: Generate Reports
-      run: coverage run --source=dicom_rest_service -m pytest
+      run: coverage run --source=dicom_rest_service -m pytest && coverage json
     - name: Send reports
       run: omni_coveragereporter_python.py
