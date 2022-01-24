@@ -34,4 +34,4 @@ jobs:
     - name: Generate Reports
       run: coverage run --source=dicom_rest_service -m pytest
     - name: Send reports
-      run: coveragereporter.py
+      run: omni_coveragereporter_python.py
