@@ -25,13 +25,11 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install omni-coveragereporter==0.0.0
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Test with pytest
-      run: |
-        pytest
+      run:
+        python -m pip install --upgrade pip &&
+        pip install omni-coveragereporter==0.0.0 &&
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi &&
+        pip3 install coverage
     - name: Generate Reports
       run: coverage run --source=dicom_rest_service -m pytest
     - name: Send reports
