@@ -13,8 +13,9 @@
 [![codebeat badge](https://codebeat.co/badges/f71948d7-db29-4b36-a309-e347f96699f0)](https://codebeat.co/projects/github-com-jesperancinha-med_dicom_service-master)
 [![BCH compliance](https://bettercodehub.com/edge/badge/jesperancinha/med_dicom_service?branch=master)](https://bettercodehub.com/results/jesperancinha/med_dicom_service)
 
-[![codecov](https://codecov.io/gh/jesperancinha/med_dicom_service/branch/master/graph/badge.svg?token=nuvzffSwkW)](https://codecov.io/gh/jesperancinha/med_dicom_service)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/e0840fb465c6425785df419fb3887b2b)](https://www.codacy.com/gh/jesperancinha/med_dicom_service/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jesperancinha/med_dicom_service&utm_campaign=Badge_Coverage)
 [![Coverage Status](https://coveralls.io/repos/github/jesperancinha/med_dicom_service/badge.svg?branch=master)](https://coveralls.io/github/jesperancinha/med_dicom_service?branch=master)
+[![codecov](https://codecov.io/gh/jesperancinha/med_dicom_service/branch/master/graph/badge.svg?token=nuvzffSwkW)](https://codecov.io/gh/jesperancinha/med_dicom_service)
 
 [![GitHub language count](https://img.shields.io/github/languages/count/jesperancinha/med_dicom_service.svg)](#)
 [![GitHub top language](https://img.shields.io/github/languages/top/jesperancinha/med_dicom_service.svg)](#)
@@ -75,6 +76,7 @@ coverage html
 coverage json
 coverage xml
 ```
+
 ## Requirements file
 
 ```bash
