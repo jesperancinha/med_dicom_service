@@ -1,4 +1,4 @@
-Flask==1.1.2
+Flask==2.0.2
 pytest==6.2.4
 pydicom==2.2.2
 python-coveralls==2.9.3
