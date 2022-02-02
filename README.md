@@ -3,8 +3,6 @@
 ---
 [![Twitter URL](https://img.shields.io/twitter/url?logoColor=blue&style=social&url=https%3A%2F%2Fimg.shields.io%2Ftwitter%2Furl%3Fstyle%3Dsocial)](https://twitter.com/intent/tweet?text=%20Checkout%20this%20%40github%20repo%20by%20%40joaofse%20%F0%9F%91%A8%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB%3A%20https%3A//github.com/jesperancinha/med_dicom_service)
 [![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=Med%20Dicom%20Service🏥&color=informational)](https://github.com/jesperancinha/med_dicom_service)
-[![GitHub release](https://img.shields.io/github/release-pre/jesperancinha/med_dicom_service.svg)](https://github.com/jesperancinha/med_dicom_service/releases)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/jesperancinha/med_dicom_service)](https://github.com/jesperancinha/med_dicom_service/releases)
 [![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
 
 [![CircleCI](https://circleci.com/gh/jesperancinha/med_dicom_service.svg?style=svg)](https://circleci.com/gh/jesperancinha/med_dicom_service)
@@ -138,13 +136,13 @@ $ storescu --propose-rle 127.0.0.1 1234 ~/Downloads/sample.dcm
 
 ## References
 
-- [Coverage PY](https://coverage.readthedocs.io/en/6.2/)
+-   [Coverage PY](https://coverage.readthedocs.io/en/6.2/)
 
-- [mod_dcmnet](https://support.dcmtk.org/docs-dcmrt/mod_dcmnet.html)
+-   [mod_dcmnet](https://support.dcmtk.org/docs-dcmrt/mod_dcmnet.html)
 
-- [classDcmSCU](https://support.dcmtk.org/docs-dcmrt/classDcmSCU.html)
+-   [classDcmSCU](https://support.dcmtk.org/docs-dcmrt/classDcmSCU.html)
 
-- [storescp](https://support.dcmtk.org/docs-dcmrt/storescp.html)
+-   [storescp](https://support.dcmtk.org/docs-dcmrt/storescp.html)
 
 ## About me 👨🏽‍💻🚀🏳️‍🌈
 
