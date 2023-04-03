@@ -24,11 +24,7 @@
 
 ## Technologies used
 
----
-[![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-50/python-50.png "Python")](https://www.python.org/)
-[![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-50/flask-50.png "Flask Service")](https://flask.palletsprojects.com/)
-[![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-50/pydicom-50.png "Pydicom")](https://flask.palletsprojects.com/)
----
+Please check the [TechStack.md](TechStack.md) file for details.
 
 ## Introduction
 
