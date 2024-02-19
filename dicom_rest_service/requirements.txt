@@ -1,5 +1,5 @@
 Flask==3.0.2
-pytest==8.0.0
+pytest==8.0.1
 pydicom==2.4.4
 python-coveralls==2.9.3
 coveralls==3.3.1
